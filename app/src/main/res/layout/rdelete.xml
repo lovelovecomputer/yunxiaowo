@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/information">
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="宿舍信息"
+        android:textColor="#101010"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:paddingTop="30sp"
+        android:paddingLeft="20sp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp">
+
+        <ListView
+            android:id="@+id/lv"
+            android:background="@drawable/line"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+        </ListView>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

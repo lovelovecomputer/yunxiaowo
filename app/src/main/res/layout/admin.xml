@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/admin">
+
+    <TextView
+        android:id="@+id/teview1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="管理员"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:paddingTop="30sp"
+        android:paddingLeft="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="62dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/SInsert"
+            android:layout_width="180sp"
+            android:text="添加学生信息"
+            android:textColor="#dc4850"
+            android:textSize="18dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button2"/>
+
+        <Button
+            android:id="@+id/RInsert"
+            android:layout_width="180sp"
+            android:text="添加宿舍信息"
+            android:textColor="#dc4850"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button2"/>
+
+        <Button
+            android:id="@+id/SDelete"
+            android:layout_width="180sp"
+            android:text="删除学生信息"
+            android:textColor="#dc4850"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button2"/>
+
+        <Button
+            android:id="@+id/RDelete"
+            android:layout_width="180sp"
+            android:text="删除宿舍信息"
+            android:textColor="#dc4850"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button2"/>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="180sp"
+            android:text="返回首页"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button2"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

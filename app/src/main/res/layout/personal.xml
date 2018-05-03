@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/personal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:paddingLeft="20sp"
+        android:paddingTop="82sp"
+        android:text="个人信息"
+        android:textColor="#688925"
+        android:textSize="40sp" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:background="@drawable/line"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"/>
+
+    <Button
+        android:id="@+id/shenqing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="#fcf7f5"
+        android:fontFamily="sans-serif"
+        android:text="申请宿舍"
+        android:textSize="23dp"
+        android:textColor="#688925"/>
+
+
+</RelativeLayout>

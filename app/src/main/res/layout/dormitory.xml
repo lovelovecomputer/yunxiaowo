@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/dormitory">
+
+        <TextView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="房源信息"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:paddingTop="30sp"
+        android:paddingLeft="20sp"/>
+
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"></ListView>
+
+
+</RelativeLayout>

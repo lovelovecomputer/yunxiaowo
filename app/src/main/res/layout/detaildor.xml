@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/detaildor"
+    android:fontFamily="serif">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="房间信息"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:paddingTop="80sp"
+        android:paddingLeft="20sp"/>
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="哈"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/build"
+        android:layout_marginLeft="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="哈"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/room"
+        android:layout_marginLeft="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="哈"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/beds"
+        android:layout_marginLeft="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="哈"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/ori"
+        android:layout_marginLeft="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="哈"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/shenqing"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:background="#e1cdb1"
+        android:text="申请"/>
+</LinearLayout>
